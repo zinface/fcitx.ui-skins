@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<UI version="1.0">
+    <CCandidateWin CandSpace="-1,4" LeftRightSpace="1,1" alphaValue="255" autoAlign="false" autoAlignType="0" clrCand="0,128,0,255" clrCaret="227,173,9,0" clrCloudCand="107,107,107,255" clrCloudIndex="107,107,107,255" clrComp="227,173,9,0" clrHalf="227,173,9,0" clrHilightCand="0,128,0,0" clrHilightIndex="0,124,202,255" clrIndex="52,53,54,255" clrTip="0,128,0,0" compMargin="22,23,42,6" compMarginH="19,20,115,6" compMarginV="22,23,42,6" enable="true" fontCand="方正准圆简体,16,0" fontComp="Arial,16,0" hotSpotH="0,0" hotSpotV="0,0" interval="12" keepCandSpace="true" marginH="19,6,119,0" marginV="22,3,35,17" name="CandidateWin" position="0,0" rect="0,0,209,193" size="209,193" stretchWithFont="0" supportRgn="false" unseen="false" zOrder="0">
+        <Properties>
+            <bkground>
+                <CBDImage drawStyle="1" file="\main_backgroundV.png" stretchArea="23,39,44,57" />
+            </bkground>
+            <bkgroundH>
+                <CBDImage drawStyle="1" file="\main_backgroundH.png" stretchArea="36,37,89,56" />
+            </bkgroundH>
+            <bkgroundV>
+                <CBDImage drawStyle="1" file="\main_backgroundV.png" stretchArea="23,39,44,57" />
+            </bkgroundV>
+        </Properties>
+        <Children>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="-12,8" autoAlignType="2" enable="true" isDefImg="true" margin="318,3,5,31" name="H_BtnSearch" position="179,8" rect="179,8,197,26" size="18,18" supportRgn="false" toolText="百度一下(Ctrl+Shift+S)" unseen="true" zOrder="0">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\baidu_h_down.png" stretchArea="4,4,13,13" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\baidu_h_normal.png" stretchArea="4,4,13,13" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\baidu_h_hover.png" stretchArea="4,4,13,13" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="-12,8" autoAlignType="2" enable="true" isDefImg="true" margin="318,3,5,31" name="V_BtnSearch" position="179,8" rect="179,8,197,26" size="18,18" supportRgn="false" toolText="百度一下(Ctrl+Shift+S)" unseen="true" zOrder="0">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\baidu_v_down.png" stretchArea="4,4,13,13" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\baidu_v_normal.png" stretchArea="4,4,13,13" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\baidu_v_hover.png" stretchArea="4,4,13,13" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignType="0" enable="true" isDefImg="true" margin="0,0,24,8" name="H_BtnLeft" position="155,50" rect="155,50,166,72" size="11,22" supportRgn="false" themeColor="0,128,0,255" toolText="上一页" unseen="false" zOrder="100">
+                <Properties>
+                    <disableImg>
+                        <CBDImage drawStyle="0" file="\left_h_disable.png" stretchArea="1,2,4,7" />
+                    </disableImg>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\left_h_down.png" stretchArea="1,2,4,7" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\left_h_normal.png" stretchArea="1,2,4,7" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\left_h_hover.png" stretchArea="1,2,4,7" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignOffset="12,170" autoAlignType="0" enable="false" isDefImg="true" margin="0,0,24,8" name="V_BtnLeft" position="22,120" rect="22,120,33,142" size="11,22" supportRgn="false" themeColor="0,128,0,255" toolText="上一页" unseen="false" zOrder="100">
+                <Properties>
+                    <disableImg>
+                        <CBDImage drawStyle="0" file="\left_v_disable.png" stretchArea="1,2,4,7" />
+                    </disableImg>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\left_v_down.png" stretchArea="1,2,4,7" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\left_v_normal.png" stretchArea="1,2,4,7" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\left_v_hover.png" stretchArea="1,2,4,7" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignOffset="259,32" autoAlignType="0" enable="false" isDefImg="true" margin="0,0,10,8" name="H_BtnRight" position="167,50" rect="167,50,178,72" size="11,22" supportRgn="false" themeColor="0,128,0,255" toolText="下一页" unseen="false" zOrder="100">
+                <Properties>
+                    <disableImg>
+                        <CBDImage drawStyle="0" file="\right_h_disable.png" stretchArea="1,2,4,7" />
+                    </disableImg>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\right_h_down.png" stretchArea="1,2,4,7" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\right_h_normal.png" stretchArea="1,2,4,7" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\right_h_hover.png" stretchArea="1,2,4,7" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignOffset="28,141" autoAlignType="0" enable="true" isDefImg="true" margin="0,0,10,8" name="V_BtnRight" position="34,120" rect="34,120,45,142" size="11,22" supportRgn="false" themeColor="0,128,0,255" toolText="下一页" unseen="false" zOrder="100">
+                <Properties>
+                    <disableImg>
+                        <CBDImage drawStyle="0" file="\right_v_disable.png" stretchArea="1,2,4,7" />
+                    </disableImg>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\right_v_down.png" stretchArea="1,2,4,7" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\right_v_normal.png" stretchArea="1,2,4,7" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\right_v_hover.png" stretchArea="1,2,4,7" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignType="0" disableColor="0,0,0,255" downColor="227,229,232,255" enable="true" isDefImg="true" margin="1,0,1,0" name="H_BtnLine" normalColor="227,229,232,255" overColor="227,229,232,255" position="1,33" rect="1,33,275,34" size="274,1" supportRgn="false" unseen="true" zOrder="0" />
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignType="0" disableColor="0,0,0,255" downColor="227,229,232,255" enable="true" isDefImg="true" margin="1,0,1,0" name="V_BtnLine" normalColor="227,229,232,255" overColor="227,229,232,255" position="1,33" rect="1,33,136,34" size="135,1" supportRgn="false" unseen="true" zOrder="0" />
+        </Children>
+    </CCandidateWin>
+</UI>

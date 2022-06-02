@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<UI version="1.0">
+    <CStatusWin alphaValue="255" autoAlign="false" autoAlignType="0" enable="true" name="StatusWin" position="0,0" rect="0,0,165,49" size="165,49" supportRgn="false" unseen="false" zOrder="0">
+        <Properties>
+            <bkground>
+                <CBDImage drawStyle="2" file="\toolbar_background.png" stretchArea="10,10,16,16" />
+            </bkground>
+        </Properties>
+        <Children>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="2,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnLogo" position="2,1" rect="2,1,28,27" size="26,26" supportRgn="false" unseen="true" zOrder="1">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\BtnLogo_click.png" stretchArea="7,7,23,21" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\BtnLogo_normal.png" stretchArea="7,7,23,21" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\BtnLogo_hover.png" stretchArea="7,7,23,21" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="11,12" autoAlignType="0" enable="true" isDefImg="true" name="BtnCn" position="11,12" rect="11,12,32,36" size="21,24" supportRgn="false" unseen="false" zOrder="2">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\english_click.png" stretchArea="6,5,18,15" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\chinese_click.png" stretchArea="6,5,18,15" />
+                    </downImg2>
+                    <downImg3>
+                        <CBDImage drawStyle="0" file="\capslock_click.png" stretchArea="6,5,18,15" />
+                    </downImg3>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\english_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\chinese_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg2>
+                    <normalImg3>
+                        <CBDImage drawStyle="0" file="\capslock_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg3>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\english_hover.png" stretchArea="6,5,18,15" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\chinese_hover.png" stretchArea="6,5,18,15" />
+                    </overImg2>
+                    <overImg3>
+                        <CBDImage drawStyle="0" file="\capslock_hover.png" stretchArea="6,5,18,15" />
+                    </overImg3>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="56,20" autoAlignType="0" enable="true" isDefImg="true" name="BtnHalf" position="56,20" rect="56,20,70,31" size="14,11" supportRgn="false" unseen="false" zOrder="3">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\half_click.png" stretchArea="6,5,18,15" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\full_click.png" stretchArea="6,5,18,15" />
+                    </downImg2>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\half_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\full_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\half_hover.png" stretchArea="6,5,18,15" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\full_hover.png" stretchArea="6,5,18,15" />
+                    </overImg2>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="39,20" autoAlignType="0" enable="true" isDefImg="true" name="BtnSymbol" position="39,20" rect="39,20,55,31" size="16,11" supportRgn="false" unseen="false" zOrder="4">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\cn_punctuation_click.png" stretchArea="6,5,18,15" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\en_punctuation_click.png" stretchArea="6,5,18,15" />
+                    </downImg2>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\cn_punctuation_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\en_punctuation_normal.png" stretchArea="5,5,16,15" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\cn_punctuation_hover.png" stretchArea="6,5,18,15" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\en_punctuation_hover.png" stretchArea="6,5,18,15" />
+                    </overImg2>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="122,2" autoAlignType="0" enable="true" isDefImg="true" name="BtnSoftkbd" position="122,2" rect="122,2,148,28" size="26,26" supportRgn="false" unseen="true" zOrder="5">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\softkbd_click.png" stretchArea="7,6,22,19" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\softkbd_normal.png" stretchArea="7,6,22,19" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\softkbd_hover.png" stretchArea="7,6,22,19" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="128,0" autoAlignType="0" enable="true" isDefImg="true" name="BtnSCTC" position="128,0" rect="128,0,154,26" size="26,26" supportRgn="false" unseen="true" zOrder="7">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\sc_click.png" stretchArea="6,7,18,21" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\tc_click.png" stretchArea="6,7,18,21" />
+                    </downImg2>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\sc_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\tc_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\sc_hover.png" stretchArea="6,7,18,21" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\tc_hover.png" stretchArea="6,7,18,21" />
+                    </overImg2>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="127,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnHandInput" position="127,1" rect="127,1,153,27" size="26,26" supportRgn="false" unseen="true" zOrder="11">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\handinput_click.png" stretchArea="6,7,18,21" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\handinput_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\handinput_hover.png" stretchArea="6,7,18,21" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="128,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnShuangPin" position="128,1" rect="128,1,154,27" size="26,26" supportRgn="false" unseen="true" zOrder="6">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\quanpin_click.png" stretchArea="6,7,18,21" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\shuangpin_click.png" stretchArea="6,7,18,21" />
+                    </downImg2>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\quanpin_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\shuangpin_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\quanpin_hover.png" stretchArea="6,7,18,21" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\shuangpin_hover.png" stretchArea="6,7,18,21" />
+                    </overImg2>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="99,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnLogin" position="99,1" rect="99,1,125,27" size="26,26" supportRgn="false" unseen="true" zOrder="8">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\logout_click.png" stretchArea="6,5,18,15" />
+                    </downImg>
+                    <downImg2>
+                        <CBDImage drawStyle="0" file="\login_click.png" stretchArea="6,5,18,15" />
+                    </downImg2>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\logout_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\login_normal.png" stretchArea="6,5,18,15" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\logout_hover.png" stretchArea="6,5,18,15" />
+                    </overImg>
+                    <overImg2>
+                        <CBDImage drawStyle="0" file="\login_hover.png" stretchArea="6,5,18,15" />
+                    </overImg2>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="77,18" autoAlignType="0" enable="true" isDefImg="true" name="BtnSkinBox" position="77,18" rect="77,18,102,41" size="25,23" supportRgn="false" unseen="false" zOrder="10">
+                <Properties>
+                    <disableImg>
+                        <CBDImage drawStyle="0" file="\BtnSkinBox_1_3_02E4DD58.png" stretchArea="6,5,18,17" />
+                    </disableImg>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\skinbox_click.png" stretchArea="6,7,18,21" />
+                    </downImg>
+                    <mouseInImg>
+                        <CBDImage drawStyle="0" file="\BtnSkinBox_1_4_02E4E100.png" stretchArea="6,5,18,17" />
+                    </mouseInImg>
+                    <mouseOutImg>
+                        <CBDImage drawStyle="0" file="\BtnSkinBox_1_5_02E4E4A8.png" stretchArea="6,5,18,17" />
+                    </mouseOutImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\skinbox_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\skinbox_hover.png" stretchArea="6,7,18,21" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="127,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnScreenShot" position="127,1" rect="127,1,153,27" size="26,26" supportRgn="false" unseen="true" zOrder="12">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\screenshot_click.png" stretchArea="6,7,18,21" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\screenshot_normal.png" stretchArea="6,7,18,21" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\screenshot_hover.png" stretchArea="6,7,18,21" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="123,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnSpeechInput" position="123,1" rect="123,1,149,27" size="26,26" supportRgn="false" toolText="语音输入(${HOTKEY})" unseen="true" zOrder="13">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\speech_click.png" stretchArea="5,6,17,19" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\speech_normal.png" stretchArea="5,6,17,19" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\speech_hover.png" stretchArea="5,6,17,19" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="104,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnSetting" position="104,1" rect="104,1,130,27" size="26,26" supportRgn="false" unseen="true" zOrder="9">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\setting_click.png" stretchArea="5,6,17,19" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\setting_normal.png" stretchArea="5,6,17,19" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\setting_hover.png" stretchArea="5,6,17,19" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="52,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnExpression" position="52,1" rect="52,1,78,27" size="26,26" supportRgn="false" toolText="图片表情" unseen="true" zOrder="16">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\BtnExp_click.png" stretchArea="6,6,19,19" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\BtnExp_normal.png" stretchArea="6,6,19,19" />
+                    </normalImg>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\BtnExp_hover.png" stretchArea="6,6,19,19" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="true" autoAlignOffset="79,1" autoAlignType="0" enable="true" isDefImg="true" name="BtnClipboard" position="79,1" rect="79,1,105,27" size="26,26" supportRgn="false" toolText="一键发图到贴吧" unseen="true" zOrder="14">
+                <Properties>
+                    <downImg>
+                        <CBDImage drawStyle="0" file="\BtnClip_click.png" stretchArea="6,6,19,19" />
+                    </downImg>
+                    <normalImg>
+                        <CBDImage drawStyle="0" file="\BtnClip_normal.png" stretchArea="6,6,19,19" />
+                    </normalImg>
+                    <normalImg2>
+                        <CBDImage drawStyle="0" file="\BtnClipA_normal.png" />
+                    </normalImg2>
+                    <overImg>
+                        <CBDImage drawStyle="0" file="\BtnClip_hover.png" stretchArea="6,6,19,19" />
+                    </overImg>
+                </Properties>
+            </CBDButton>
+            <CBDButton alphaValue="255" autoAlign="false" autoAlignOffset="0,0" autoAlignType="0" enable="true" isDefImg="true" name="BtnSearch" position="0,0" rect="0,0,0,0" size="0,0" supportRgn="false" unseen="true" zOrder="0" />
+        </Children>
+    </CStatusWin>
+</UI>
