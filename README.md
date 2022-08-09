@@ -1,6 +1,6 @@
 # fcitx-skins
 
-> 适用于 fcitx 的皮肤内容
+> 适用于 fcitx4 的皮肤内容
 
 ## 安装/配置/使用
 
